@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <responsive-child>
+      <main class="interactive">
+        <table class="voices">
+          <% json.students.forEach(function(row) { %>
+          <tr>
+            <td class="photo">
+              <% if (row.photo) { %>
+              <img src="./assets/headshots/<%= row.photo.trim() %>.jpg">
+              <% } %>
+            <td>
+              <h2><%= row.name %></h2>
+              <div class="school"><%= row.year %> at <%= row.school.trim() %>, <%= row.city %></div>
+              <div class="job"><b>Dream job:</b> <%= row.job %></div>
+              <div class="bio">
+                <%= row.bio %>
+              </div>
+          <% }) %>
+        </table>
+      </main>
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
