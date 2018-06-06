@@ -25,7 +25,7 @@
     "school": "Chief Sealth High School",
     "year": "Senior ",
     "city": "Seattle ",
-    "bio": "Amad is a senior at Chief Sealth, where he's delighted some and annoyed others by arguing about politics, books and philosophy with everyone willing. He hopes to make a career of arguing by studying law. Working with a defense attorney has shown him that the justice system doesn’t always live up to its name. He hopes to work on that, and advocate for a more equitable society. This fall, he will attend Columbia University, where the coffee is weaker and the rain is less persistent."
+    "bio": "Amad is a senior at Chief Sealth, where he has delighted some and annoyed others by arguing about politics, books and philosophy with anyone willing to listen. He hopes to make a career of arguing by studying law. Working with a defense attorney has shown him that the justice system doesn’t always live up to its name. He hopes to work on that, and advocate for a more equitable society. This fall, he will attend Columbia University, where the coffee is weaker and the rain is less persistent."
   },
   {
     "name": "Anna Ferguson",
@@ -113,6 +113,7 @@
   },
   {
     "name": "Sabrina Mossor ",
+    "photo": "SabrinaMossor",
     "twitter": "@sabrinamossor",
     "job": "School counselor",
     "school": "Tumwater High School",
